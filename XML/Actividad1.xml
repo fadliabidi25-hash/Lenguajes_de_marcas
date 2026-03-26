@@ -1,0 +1,21 @@
+<? xml version = "1.0" encoding="UTF-8"?>
+<viaje tipo = turistico>
+    <clientes>
+        <cliente>
+            <nombre>Pedro</nombre>
+            <apellido_uno>Perez</apellido_uno>
+            <apellido_dos>Lopez</apellido_dos>
+        </cliente>
+    </clientes>
+    <fecha_inicio>25/03/2026</fecha_inicio>
+    <fecha_fin>15/04/2026</fecha_fin>
+    <origen>Teruel</origen>
+    <destinos>
+        <destino>
+            <nombre_ciudad>Paris</nombre_ciudad>
+            <nombre_hotel>The Croissant</nombre_hotel>
+            <noches>12</noches>
+        </destino>
+    </destinos>
+    <precio_viaje moneda="euros">2500</precio_viaje>
+</viaje>
