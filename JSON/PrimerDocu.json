@@ -1,0 +1,16 @@
+{
+    "nombre": "Alfredo",
+    "edad": 25,
+    "esta_casado": false,
+    "hermanos": ["Maria", 2, "Juan"],
+    "viviendas":[
+                    {
+                        "calle": "Batalla de Lepanto",
+                        "numero": 50
+                    },
+                    {
+                        "calle": "La Mina",
+                        "numero": 33
+                    }
+                ]
+}
