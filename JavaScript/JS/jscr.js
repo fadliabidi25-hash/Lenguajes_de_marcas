@@ -34,5 +34,13 @@
         suma(2, 3);
         */
 
-        const mititulo=document.querySelector("#titulo");
-        mititulo.textContent = "nuevo titulo";
+        //const mititulo=document.querySelector("#titulo");
+        //mititulo.textContent = "nuevo titulo";
+
+        const mititulo=document.getElementById("titulo");
+        mititulo.textContent="siuuuuuu";
+        //cambiar estilop
+        mititulo.style.backgroundColor="blue";
+
+        const parrafos=document.querySelectorAll(".cparrafo");
+        parrafos.forEach((parrafo)=>{mititulo.style.backgroundColor="yellow";});

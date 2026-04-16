@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informacion-financiera
+    xmlns:inv="http://cualquiera"
+    xmlns:bol="http://otra"
+    xmlns:pfin="http://pfin">
+<inv:inversor>
+    <inv:nombre>Peter</inv:nombre>
+    <inv:apellido>Peter</inv:apellido>
+    <inv:ciudad>Nueva York</inv:ciudad>
+</inv:inversor>
+<bol:bolsa>
+    <bol:ciudad>Estocolmo</bol:ciudad>
+    <bol:identificador>EST</bol:identificador>
+</bol:bolsa>
+
+<productos_financieros>
+    <acciones>Generales</acciones>
+    <stock-options>25</stock-options>
+    <fondos>Buitre</fondos>
+    <ciudad>Albacete</ciudad>
+</productos_financieros>
+
+</informacion-financiera>
